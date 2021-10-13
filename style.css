@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
+    display: block;
+    text-size-adjust: 100%;
+    width: 100%;
+    min-width: 320px;
+    padding-top: 60px;
+    font-family: Red Hat Display,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,
+    Helvetica Neue,sans-serif;
+    background-color: #edf0f0;
+}
+
+#main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 1;
+}
+
+#header-logo {
+    position: relative;
+    top: 30px;
+    padding: 24px;
+    display: inline;
+}
+
+#nav-bar {
+    position: relative;
+    top: 25px;
+    display: inline;
+}
+
+#nav-bar ul {
+    list-style: none;   
+}
+#nav-bar li {
+    font-size: 1.1rem;
+}
+#nav-bar a {
+    text-decoration: none;
+    color: #637581;
+    align-items: center;
+    padding: 0 .6rem;  
+    cursor: pointer;  
+}
+
+#nav-bar a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+#main-header div,ul,li,input {
+    display: inline;
+}
+
+header .search-form svg,input,form{
+    display: inline;
+}
+header .search-form svg{
+    width: 22px;
+    height: 22px;
+    padding-top: 3px;
+    fill: #fff;  
+    position: relative;
+    top: 5px;
+}
+
+header .search-form a {
+    position: relative;
+    top: 30px;
+    position: relative;
+    padding: .25rem;
+    vertical-align: super;
+    background: #637581;
+    border-radius: .5rem;    
+}
+
+header .search-form  input {
+    position: relative;
+    top: 28px;
+    height: 24px;
+    margin: 0 0 0 -.5rem;
+    text-indent: 1rem;
+    vertical-align: super;
+    border: 1px solid #637581;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+header .register {   
+    position: relative;
+    top: 32px;
+    float: right;
+    margin-right: 1rem;
+    padding: .5rem;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.register #reg-login a{
+    height: 25px; 
+    color: #fff;
+    background-color: #637581;
+    border-radius: 1rem;
+    border: #fff;
+    margin: 0px 16px 0px 0px;
+    padding: 8px; 
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.register #reg-register-now a{
+    height: 27px; 
+    color: #fff;
+    background-color: #e33a11;
+    border-radius: 1rem;
+    border: #fff;
+    padding: 8px; 
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+#reg-login a:hover {
+    background-color: #e33a11;
+}
+
+#reg-register-now a:hover {
+    background-color: #637581;
+}
+
+header .register button {
+    background: transparent;
+    border: none;
+}
+
+#nav-bar .nav-news:hover {
+    color: #e33a11;
+}
+
+#nav-bar .nav-features:hover {
+    color: #e33a11;
+}
+
+#nav-bar .nav-politics:hover {
+    color: #5c909d;
+}
+
+#nav-bar .nav-opinion:hover {
+    color: #3759b7;
+}
+
+#nav-bar .nav-culture:hover {
+    color: #eda400;
+}
+
+#nav-bar .nav-money:hover {
+    color: #f88379;
+}
+
+#nav-bar .nav-lifestyle:hover {
+    color: #46a3e0;
+}
+
+#nav-bar .nav-sport:hover {
+    color: #8bc419;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,Nimbus Roman No9 L Regular,Times,
+    Times New Roman,serif;
+}
+
+a {
+    font-family: Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,
+    Helvetica Neue,sans-serif;
+}
+
+.news-banner-music {
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,Nimbus Roman No9 L Regular,Times,Times New Roman,serif;
+    background-color: #fff;
+    color: #eda400;
+    border-top: 2px solid #f7f4f4;
+    border-bottom: 10px solid #eda400;
+    position: fixed;
+    top: 100px;
+    z-index: 1;
+}
+
+.news-banner-techno {
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,Nimbus Roman No9 L Regular,Times,Times New Roman,serif;
+    background-color: #fff;
+    color: #e33a11;
+    border-top: 2px solid #f7f4f4;
+    border-bottom: 10px solid #e33a11;
+    position: fixed;
+    top: 100px;
+    z-index: 1;
+}
+
+.banner-inner {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+
+.main-post {
+    position: relative;
+    top: 100px;
+    margin: 0px 80px;
+    background-color: #fff;
+    width: 58%;
+}
+
+.headline {
+    position: relative;
+    top: 20px;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    margin: 20px;
+}
+
+.excerpt {
+    display: inline-block;
+    margin: 10px 100px 10px 20px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,"Liberation Serif",Nimbus Roman No9 L Regular,
+    Times,Times New Roman,serif;
+    line-height: 1.6rem;
+}
+
+figure {
+    margin: 20px;
+}
+
+figure img {
+    width: 100%;
+}
+figure figcaption {
+    padding: .4rem 0;
+    font-size: .8rem;
+    font-family: Red Hat Display,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    padding: .4rem .6rem .4rem 0;
+}
+
+.author-banner {
+    display: block;
+    margin: 20px;
+    height: 85px;
+    background-color: #fdf6e5;
+}
+
+.author-banner .author-pic {
+    display: inline;
+}
+
+.author-name {
+    display: inline;
+}
+
+.author-banner a {
+    display: inline;
+    padding: .5rem;
+    font-weight: 700;
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,"Liberation Serif",Nimbus Roman No9 L Regular,
+    Times,Times New Roman,serif;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    bottom: 35px;
+    font-size: 1.1rem;
+}
+
+.post-date {
+    color: #637581;
+    font-size: 0.95rem;
+    margin: 20px;
+    font-weight: lighter;
+}
+
+.social-media-share {
+    margin: 20px;
+}
+
+.social-media-share a {
+    text-decoration:none;
+    color: #000;
+}
+
+article a {
+    color: #e33a11;
+    text-decoration: none;
+}
+
+
+article p {
+    line-height: 1.6rem;
+    display: block;
+    font-size: 1rem;
+    margin: 20px;
+    font-family: "Source Serif Pro",Cambria,Hoefler Text,Utopia,"Liberation Serif",
+    Nimbus Roman No9 L Regular,Times,Times New Roman,serif;
+}
+
+
+.post-footer {
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+}
+.post-footer-inner {
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,Nimbus Roman No9 L Regular,Times,Times New Roman,serif;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.post-footer-inner h3 {
+    margin: 0 0 .5rem;
+    color: #637581;
+    font-weight: 400;
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,"Liberation Serif",Nimbus Roman No9 L Regular,Times,
+    Times New Roman,serif;
+    position: relative;
+    top: 10px;
+    padding-bottom:5px;
+}
+
+.post-footer-inner nav {
+    font-family: Bitter,Cambria,Hoefler Text,Utopia,"Liberation Serif",Nimbus Roman No9 L Regular,Times,
+    Times New Roman,serif;
+    font-weight: 900;
+}
+
+::selection {
+    color: #fff;
+    background: #e33a11;
+} 
